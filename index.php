@@ -22,7 +22,7 @@
       $(document).on("click", "#submitMyForm", function(e){
         e.preventDefault();
         var form = $("#myForm")[0];
-        var formData = new FormData(form); //all form data add in this object
+        var formData = new FormData(form); //all form data add in this object by using input name
         
         var appendData = $("#appendData").val(); // if you want to add append data to this object
         form_data.append("appendData", appendData);
