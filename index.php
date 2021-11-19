@@ -10,8 +10,8 @@
   
   
     <form id="myForm">
-      <input type="text" name="name">
-      <input type="file" name="photo">
+      <input type="text" name="name"> //name required
+      <input type="file" name="photo"> //name required
       <button id="submitMyForm">Submit</button>
     </form>
     
